@@ -18,13 +18,10 @@ int main() {
       Replaced with 'using' (work better with templates)
    */
 
-   text_t name = "Nattan";
-   number_t age = 24;
-
+   text_t name = "Nattan"; // Declare a variable 'name' of type 'text_t' (which is 'std::string') and initialize it with "Nattan"
+   number_t age = 24; // Declare a variable 'age' of type 'number_t' (which is 'int') and initialize it with 24
 
    std::cout << "My name is " << name << " and i'm " << age << " years old" << '\n';
-
-
 
    return 0;
 }
