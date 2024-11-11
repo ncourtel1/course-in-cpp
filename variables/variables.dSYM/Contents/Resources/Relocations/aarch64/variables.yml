@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nattan/Documents/cs/electonic/course-in-cpp/variables/variables'
+relocations:     []
+...
