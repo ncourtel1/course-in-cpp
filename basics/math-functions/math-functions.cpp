@@ -6,9 +6,6 @@ int main() {
    double y = 4;     
    double z;         
 
-   z = std::max(x, y);  // Finds the maximum of x and y, stores the result in z
-   std::cout << z << '\n';  // Outputs the maximum value
-
    z = std::min(x, y);  // Finds the minimum of x and y, stores the result in z
    std::cout << z << '\n';  // Outputs the minimum value
 
