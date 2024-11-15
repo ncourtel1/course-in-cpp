@@ -11,10 +11,10 @@ class Student {
       // Constructor for the `Student` class
       // It initializes the attributes `name`, `age`, and `grade`
       // when an object of the `Student` class is created.
-      Student(std::string nameC, int ageC, char gradeC) {
-         name = nameC;    // Assign the parameter `nameC` to the class attribute `name`
-         age = ageC;      // Assign the parameter `ageC` to the class attribute `age`
-         grade = gradeC;  // Assign the parameter `gradeC` to the class attribute `grade`
+      Student(std::string name, int age, char grade) {
+         this->name = name;    // Assign the parameter `name` to the class attribute `name`
+         this->age = age;      // Assign the parameter `age` to the class attribute `age`
+         this->grade = grade;  // Assign the parameter `grade` to the class attribute `grade`
       }
 };
 
@@ -29,10 +29,10 @@ class Car {
       // Constructor for the `Car` class
       // It initializes the attributes `model`, `years`, and `occasion`
       // when an object of the `Car` class is created.
-      Car(std::string modelC, int yearsC, bool occasionC) {
-         model = modelC;       // Assign the parameter `modelC` to the class attribute `model`
-         years = yearsC;       // Assign the parameter `yearsC` to the class attribute `years`
-         occasion = occasionC; // Assign the parameter `occasionC` to the class attribute `occasion`
+      Car(std::string model, int years, bool occasion) {
+         this->model = model;       // Assign the parameter `model` to the class attribute `model`
+         this->years = years;       // Assign the parameter `years` to the class attribute `years`
+         this->occasion = occasion; // Assign the parameter `occasion` to the class attribute `occasion`
       }
 
       void Move() {
